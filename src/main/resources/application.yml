@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/dbparcial?serverTimezone=UTC
+    username: root
+  jpa:
+    hibernate:
+      ddl-auto: create
